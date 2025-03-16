@@ -6,7 +6,7 @@ public class Laptop {
 
     // 1)Specifications OR Properties
     // Color,Price,Size,Company Name
-    // Fields or variable members
+    // Fields or variable members or Data members
 
     String companyName="Lenovo";
     String color="red";

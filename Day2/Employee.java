@@ -20,7 +20,6 @@ public class Employee {
         e1.empDetails();
 //        e1.empCompany="TCS_2015";// (Not possible)
 
-
         System.out.println("_______________");
 
         Employee e2=new Employee();

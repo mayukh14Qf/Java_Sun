@@ -5,5 +5,4 @@ public class Demo3 {
     int studentRoll;
     long phoneNumber;
     String department;
-
 }

@@ -4,7 +4,6 @@ public class Driver {
 
     public static void main(String[] args) {
 
-
         Demo3 o= new Demo3();
         o.department="ECE";
         o.phoneNumber=4567993L;

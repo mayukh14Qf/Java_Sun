@@ -17,7 +17,5 @@ public class Driver {
         System.out.println(obj2.getStudentId());
         System.out.println(obj2.getName());
 
-
-
     }
 }

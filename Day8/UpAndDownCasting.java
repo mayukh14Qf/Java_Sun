@@ -1,7 +1,5 @@
 package Day8;
 
-import Day8.MethodOverrideing.Child;
-
 class A{
     public void method1(){
         System.out.println("In A-Method 1");

@@ -1,0 +1,40 @@
+package Day9.Enums;
+
+enum StudentType{
+    male,female
+}
+enum Day{
+    sunday(1),
+    monday(2),
+    tuesday(3),
+    wednesday(4),
+    thursday(5),
+    friday(6),
+    saturday(7);
+    int dayCount;
+    Day(int dayCount){
+        this.dayCount=dayCount;
+    }
+}
+
+public class ExplanationOfEnum {
+    public static void main(String[] args) {
+        // short form of " Enumerations" ------> Series of User Defined Constant
+        StudentType var=StudentType.male;
+        System.out.println(var);
+        if (var==StudentType.female.male){
+            System.out.println("He is male");
+        }
+
+        StudentType [] arr=StudentType.values(); // This is an array of StudentType
+
+        for (StudentType ele : arr){
+            System.out.println(ele);
+        }
+
+        Day day1=Day.monday;
+        System.out.println(day1);
+        System.out.println(day1.dayCount);
+
+    }
+}

@@ -9,7 +9,7 @@ abstract class Mobile {
     String title="Best Mobile";
 
     // Abstract Method
-    abstract double description();
+    public abstract double description();
 
     abstract void welcomeMessage();
 
@@ -60,7 +60,7 @@ public class Abstraction {
         System.out.println(obj2.description());
         obj2.showPrice();
 
-
+//        Mobile object= new Mobile();    ------> We can not
 
     }
 }

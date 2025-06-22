@@ -41,6 +41,5 @@ public class Anonymous {
         };
         System.out.println(c1.hello());
         c1.hi();
-
     }
 }

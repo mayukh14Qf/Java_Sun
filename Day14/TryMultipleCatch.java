@@ -21,6 +21,7 @@ public class TryMultipleCatch {
                 System.out.println("in nested");
             }
         }
+
         catch (ArithmeticException e){
             System.out.println("Catch 1");
         }

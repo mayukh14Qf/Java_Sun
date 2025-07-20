@@ -1,6 +1,7 @@
 package Day12;
+
 interface College{
-    int hello();
+    public abstract int hello();
     void hi();
 }
 

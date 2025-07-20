@@ -17,7 +17,6 @@ public class FindFactorial {
 
          */
 
-
         BigInteger var1=new BigInteger("10"); // initialization
         BigInteger var2=new BigInteger("20");
         BigInteger add=var1.add(var2); // any function of BigInteger will return BigInteger
@@ -31,7 +30,6 @@ public class FindFactorial {
         System.out.println(var1.intValue()); // converting the data type to Integer
         System.out.println(var1.longValue());
 
-
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number : ");
         int number=sc.nextInt();
@@ -41,6 +39,5 @@ public class FindFactorial {
             factor=factor.multiply(new BigInteger(String.valueOf(i)));
         }
         System.out.println(factor);
-
     }
 }

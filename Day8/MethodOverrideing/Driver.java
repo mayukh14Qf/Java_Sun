@@ -5,6 +5,6 @@ public class Driver {
         Child obj1= new Child();
         obj1.hair();
         obj1.name();
-
+        obj1.name(23);
     }
 }

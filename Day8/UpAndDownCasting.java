@@ -7,7 +7,6 @@ class A{
 }
 class B extends A{
     // If you want to create a method1() again in B , that will my overriding
-
     public void method2(){
         System.out.println("In B-Method 2");
     }
@@ -22,6 +21,10 @@ public class UpAndDownCasting {
 
         B obj1=new B();
         obj1.method2();
+        obj1.method1();
+        System.out.println(obj1);
+
+       // B obj=new A(); // this is not possible
 
         A obj2=new A(); // normal
         A obj3=new B(); // upcasting
@@ -29,6 +32,7 @@ public class UpAndDownCasting {
         obj3.method1(); // method2()--------> Can not call that (only parent / A class methods will be there)
 
         // Down casting
+        B obj4=(B)obj3;
         ((B)obj3).method2();
     }
 

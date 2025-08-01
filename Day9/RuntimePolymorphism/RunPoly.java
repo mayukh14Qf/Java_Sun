@@ -7,9 +7,12 @@ class parent{
     }
 }
 class child1 extends parent{
+
+    @Override
     public void method(){
         System.out.println("In Child 1..");
     }
+
     public void method1(){
         System.out.println("In child 1 ");
     }
@@ -26,14 +29,14 @@ class child3 extends parent{
 }
 
 
-
-
 public class RunPoly {
 
+    //run time polymorphism
     public static void show(parent p){
         p.method();
     }
 
+    // overriding
     public static void show1(child1 c1){
         c1.method();
     }
@@ -47,6 +50,10 @@ public class RunPoly {
         //Dynamic / Run time Polymorphism ---->Up casting + method overriding
         obj2.method();
 
+        parent p=new parent();
+        parent p1=new child1();
+        show(p);
+        show(p1);
         show(new parent()); // it will call method() from parent
         show(new child1()); // it will call method() from child1
         show(new child2()); // it will call method() from child2

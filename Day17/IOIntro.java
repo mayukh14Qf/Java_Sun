@@ -2,7 +2,7 @@ package Day17;
 import java.io.*;
 public class IOIntro {
     public static void main(String[] args) throws IOException{
-        InputStream obj= new FileInputStream("src/IO/demo");
+        InputStream obj= new FileInputStream("src/IO/demo"); // To fetch the file content
        /*
         System.out.println(obj.available());
         System.out.println((char) obj.read()); // read the first character----> ascii value
